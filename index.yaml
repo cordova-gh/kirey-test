@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-07-10T16:38:43.675789296+02:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    description: Kirey Helm
+    digest: 15caaaa2b0490e1553daeef3d017fc6dcc9c79ddc3407d3e954f76596e4f11e5
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-8.0.3.tgz
+    version: 8.0.3
+generated: "2020-07-10T16:38:43.6671889+02:00"
